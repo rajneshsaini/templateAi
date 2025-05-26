@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   return (
     <div className='min-w-[1200px] bg-[#03061C] mx-auto'>
-      <div className='flex p-8'>
+      <div className='flex p-8 justify-center'>
         <div className='min-w-[262px] max-w-[262px]'>
           <LeftSection setIsOpen={setIsOpen} />
         </div>
