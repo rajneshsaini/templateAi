@@ -3,7 +3,7 @@ import centerCircleImage from '../assets/images/center-circle.png';
 import brandAileftCornerIcon from '../assets/icons/brandAileftCornerIcon.png';
 import AiJourneyLeftCornerIcon from '../assets/icons/AiJourneyLeftCornerIcon.png'
 import brandingPath from '../assets/icons/brandingPath.png';
-import AIJourney from '../assets/icons/AIJourney.png';
+import AIJourney from '../assets/icons/AiJourney.png';
 import iconBgUnion from '../assets/icons/iconsBgUnion.png'
 const purpleBgGradient = "url('src/assets/images/purple-gradient-bg.png')";
 const leftBottomBg = "url('src/assets/images/leftBottomBg.png')";
