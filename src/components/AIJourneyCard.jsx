@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import cancel from "../assets/icons/cancel.png"
-import AIJourneyImg from '../assets/icons/AIJourney.png';
+import AIJourneyImg from '../assets/icons/AiJourney.png';
 import Unionright from '../assets/icons/Unionright.png'
 
 const AIJourneyData = [
