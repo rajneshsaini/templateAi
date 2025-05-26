@@ -1,14 +1,19 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import centerCircleImage from '../assets/images/center-circle.png';
 import brandAileftCornerIcon from '../assets/icons/brandAileftCornerIcon.png';
 import AiJourneyLeftCornerIcon from '../assets/icons/AiJourneyLeftCornerIcon.png'
 import brandingPath from '../assets/icons/brandingPath.png';
 import AIJourney from '../assets/icons/AiJourney.png';
 import iconBgUnion from '../assets/icons/iconsBgUnion.png'
-const purpleBgGradient = "url('src/assets/images/purple-gradient-bg.png')";
-const leftBottomBg = "url('src/assets/images/leftBottomBg.png')";
-const rightBottomBg = "url('src/assets/images/rightBottomBg.png')";
-import { motion } from 'framer-motion'
+import leftBottomBgImg from '../assets/images/leftBottomBg.png';
+import rightBottomBgImg from '../assets/images/rightBottomBg.png';
+import purpleBgGradientImg from '../assets/images/purple-gradient-bg.png';
+
+const leftBottomBg = `url(${leftBottomBgImg})`;
+const rightBottomBg = `url(${rightBottomBgImg})`;
+const purpleBgGradient = `url(${purpleBgGradientImg})`;
+
 const cardVariants = {
     initial: { opacity: 0, y: 30 },
     animate: {
