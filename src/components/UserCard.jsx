@@ -6,9 +6,11 @@ import "swiper/css/navigation";
 
 import avatar from "../assets/images/avatar.png";
 import cancel from "../assets/icons/cancel.png"
+import textOverlayImg from '../assets/images/nameUpperLayer.png'
+import avatarOverlayImg from '../assets/images/avatarOverlay.png'
 
-const textOverlay = "url('src/assets/images/nameUpperLayer.png')";
-const avatarOverlay = "url('src/assets/images/avatarOverlay.png')";
+const textOverlay = `url(${textOverlayImg})`;
+const avatarOverlay = `url(${avatarOverlayImg})`;
 
 export const cards = [
   {
